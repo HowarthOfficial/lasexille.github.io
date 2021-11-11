@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Lasexille — Page</title>
+	<link href='http://fonts.googleapis.com/css?family=Quicksand:400,700' rel='stylesheet' type='text/css'>
+	<link rel="shortcut icon"href="https://img.icons8.com/color/344/idea.png">
+	<link rel="stylesheet" href="css/style.css" />
+	<link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+	<div id="player"></div>
+	<div id="overlay"></div>
+
+	<div id="status-container">
+
+		<!-- INFO -->
+		<div id="status">Lasexille</div>
+		<div id="messages"></div>
+
+		<!-- BUTTONS -->
+		<div id="buttons">
+			<input type="image" src="https://img.icons8.com/fluency-systems-filled/30/000000/vkontakte.png" onclick="window.location.href='https://vk.com/losstoanna'" >
+			<input type="image" src="https://img.icons8.com/ios-filled/30/000000/youtube-play.png" onclick="window.location.href='https://www.youtube.com/channel/UCBWjLj6OEpYVgyfoOlTw_SA'" >
+			<input type="image" value="Lasexille#6330" id="copyTxt" src="https://img.icons8.com/ios-filled/30/000000/discord-logo.png" onclick="alert('Lasexille#6330')" >
+			<input type="image" value="Lasexille#6330" id="copyTxt" src="https://img.icons8.com/material/30/000000/maestro.png" title="Пожертвование" onclick="location.href='donate.html'" >
+		</div>
+
+	</div>
+	
+	<script>
+
+		function mutePage() {
+			var elems = document.querySelectorAll( 'audio' );
+
+			[].forEach.call(elems, function(elems) { 
+				elems.paused ? elems.play() : elems.pause() ;					
+			});
+		}
+
+	</script>
+
+	<div id="music" onclick="mutePage()">
+		<div id="music-name" title=" / Нажми чтобы включить или выключить музыку."></div>
+	</div>
+
+	<script src="js/lib/jquery-2.1.1.min.js"></script>
+	<script src="js/lib/jquery.backstretch.min.js"></script>
+	<script src="js/config.js"></script>
+	<script src="js/index.js"></script>
+	<script src="js/index.js"></script>
+</body>
+</html>

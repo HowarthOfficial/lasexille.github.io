@@ -96,13 +96,7 @@ var l_musicVolume = 25;
 var l_messagesEnabled = true;
 
 /*Enter your custom messages below*/
-var l_messages = [
-"Саппорт по созданию серверов GMod/CS:GO",
-"Начинающий аниматор в Source Filmmaker",
-"Продавец скинов на заказ для CS:GO",
-"Ролевой редактор в Octothorp Team",
-"Желаешь поддержать меня? — снизу четвертая иконка "
-];
+var l_messages = [];
 
 /*Random message order?*/
 var l_messagesRandom = true;
